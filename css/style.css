@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+.java-level{
+    margin-top: 70rem;
+    width: 300px;
+    height: 24px;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.java-level::after{
+    content: '';
+    background: linear-gradient(135deg, #fd0000, #1d00ff);
+    width: 0;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    animation: progress 1.5s linear forwards;
+}
+
+@keyframes progress {
+    100%{
+        width: 90%;
+    }
+}
