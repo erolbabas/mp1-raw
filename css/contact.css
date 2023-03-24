@@ -42,6 +42,36 @@ nav {
 
 /* End of the Nav css */
 
+.contact-form {
+    padding: 0;
+    margin-top: 5rem;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.contact-form > form >  h3 {
+    margin-top: 3rem;
+
+}
+.contact-form > form > fieldset > label{
+    display: block;
+}
+
+.contact-form > form > button { 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-form > img {
+    height: auto;
+    width: 15%;
+}
+.phone-img {
+    position: absolute;
+    width: 3% !important;
+    margin-top: -12rem;
+}
+
 
 
 

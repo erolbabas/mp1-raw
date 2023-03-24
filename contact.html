@@ -39,24 +39,26 @@
         </nav>
     </nav>
     <!-- Start -->
-    <div class="container">  
+    <div class="container contact-form">  
         <form id="contact" action="" method="post">
-          <h3>Colorlib Contact Form</h3>
-          <h4>Contact us for custom quote</h4>
+          <h3>Contact me to get in touch with me</h3>
           <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            <label for="Full-Name">Name: </label>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus name="Full-Name">
           </fieldset>
           <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            <label for="email">Email: </label>
+            <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
           </fieldset>
           <fieldset>
+            <label for="phone">Phone Number: </label>
             <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
           </fieldset>
-          <fieldset>
-            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required>
+            <button class="btn btn-success">Submit</button>
+          </form>
+          <img src="assets/img/contact-us.png" alt="">
+          <img src="assets/img/phone.gif" class="phone-img" alt="">
+          </div>
     <!-- End -->
 
     <footer>
@@ -72,7 +74,6 @@
                 <img src="assets/img/javascript.png" alt="">
             </div>
         </section>
-
     </footer>
 </body>
 </html>
