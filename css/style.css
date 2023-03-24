@@ -2,59 +2,61 @@
 
 
 
-nav{
+nav {
     text-transform: uppercase;
     transition: .3s;
     z-index: 1000;
-    
+
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-top: 1rem;
     padding-bottom: 0rem;
 }
 
-.navbar-brand > img {
+.navbar-brand>img {
     width: 50px;
     height: 50px;
     border-radius: 20px;
 }
 
-.bg-image-1 > img {
+.bg-image-1>img {
     margin-top: -5rem;
     position: relative;
     opacity: 85%;
 
 }
 
-.navbar-collapse{
+.navbar-collapse {
     background-color: white;
 }
 
-.navbar-collapse > a {
+.navbar-collapse>a {
     color: black;
-   
+
 }
 
-.navbar-brand, .nav-link{
+.navbar-brand,
+.nav-link {
     padding-right: 1rem;
 }
 
-.navbar-collapse > ul > li > a{
+.navbar-collapse>ul>li>a {
     color: black;
     display: flex;
     padding: 0, 5rem, 0, 5rem;
     align-self: center;
-   
+    
+
 }
 
 
-.first-page-image > img{
+.first-page-image>img {
 
     z-index: 100;
 }
 
-.first-page-image > .container > p{
+.first-page-image>.container>p {
     z-index: 1000;
     margin-top: -60rem;
     margin-bottom: -15rem;
@@ -64,30 +66,31 @@ nav{
     position: relative;
     font-size: 35px;
     text-align: block;
-    font-family: 'Delicous Handrawn' , 'cursive';
+    font-family: 'Delicous Handrawn', 'cursive';
 
 }
 
-.first-page-image > .container > h1{
-    position: relative; 
+.first-page-image>.container>h1 {
+    position: relative;
     color: white;
 }
 
-.first-page-image > .container > .Last-name{
+.first-page-image>.container>.Last-name {
     margin-top: 18rem;
 }
 
-.first-page-image > .container > .Second-name{
+.first-page-image>.container>.Second-name {
     margin-top: 16rem;
     margin-bottom: -18rem;
 }
-.first-page-image > .container > .first-name{
+
+.first-page-image>.container>.first-name {
     margin-top: 14rem;
     margin-bottom: -16rem;
 
 }
 
-.second-page{
+.second-page {
     margin-top: 15.4rem;
 }
 
@@ -97,7 +100,7 @@ nav{
 
 }
 
-.second-page > .container > p{
+.second-page>.container>p {
     position: relative;
     margin-top: -45rem;
     margin-bottom: 50rem;
@@ -107,7 +110,7 @@ nav{
 
 }
 
-.profile-image{
+.profile-image {
     height: auto;
     width: 25%;
     border: 5px solid grey;
@@ -123,44 +126,44 @@ nav{
     margin-top: 5rem;
 }
 
-.about-me{
+.about-me {
     border: 1px #332F2E s;
 }
 
-.about-me > h1{
+.about-me>h1 {
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 70px;
     font-display: block;
 }
 
-.about-me > p {
+.about-me>p {
     font-size: 20px;
-    margin: -4rem, 0 ,1rem, 0;
-    font-display:inherit;
+    margin: -4rem, 0, 1rem, 0;
+    font-display: inherit;
     display: block;
 
 }
 
-.about-me > img{
+.about-me>img {
     height: auto;
     width: 10%;
     margin-top: -13rem;
-margin-left: 60rem;
-position: absolute;
+    margin-left: 60rem;
+    position: absolute;
 }
 
 .skills {
     margin-left: 50rem;
 }
 
-.skills > h1 {
-    font-size:70px;
+.skills>h1 {
+    font-size: 70px;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
 
-.skills > div {
+.skills>div {
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -320,7 +323,7 @@ position: absolute;
     }
 }
 
-.skills > img {
+.skills>img {
     position: absolute;
     height: auto;
     width: 10%;
@@ -328,13 +331,13 @@ position: absolute;
     margin-top: -10rem;
 }
 
-.exp-job > h1{
+.exp-job>h1 {
     margin-bottom: 3rem;
     font-size: 50px;
     text-transform: uppercase;
 }
 
-.exp-job > img{
+.exp-job>img {
     position: absolute;
     width: auto;
     height: 25%;
@@ -350,7 +353,8 @@ position: absolute;
     width: auto;
 }
 
-.btn-success , .btn-warning {
+.btn-success,
+.btn-warning {
 
     margin-bottom: 0rem;
     margin-top: 3rem;
@@ -358,28 +362,28 @@ position: absolute;
     margin-left: 5rem;
     display: inline-block;
     text-align: center;
-    padding: 5rem, 0 , 0, 0;
+    padding: 5rem, 0, 0, 0;
     font-size: 25px;
 }
 
-.button-section{
+.button-section {
     text-align: center;
 
 }
 
 
-.prog-lang > .prog-text {
-text-align: center;
-margin-top: 5rem;
+.prog-lang>.prog-text {
+    text-align: center;
+    margin-top: 5rem;
 }
 
-.prog-lang > .prog-text > h3,h5{
+.prog-lang>.prog-text>h3,
+h5 {
     margin-top: 1rem;
 }
 
-.prog-lang > .prog-text > img {
+.prog-lang>.prog-text>img {
     width: 10%;
     height: auto;
     border-radius: 5px;
 }
-

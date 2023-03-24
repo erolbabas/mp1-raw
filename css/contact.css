@@ -1,0 +1,71 @@
+
+/* this is for the nav css */
+nav {
+    text-transform: uppercase;
+    transition: .3s;
+    z-index: 1000;
+
+}
+
+.navbar-brand {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+.navbar-brand>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.navbar-collapse>a {
+    color: black;
+
+}
+
+.navbar-brand,
+.nav-link {
+    padding-right: 1rem;
+}
+
+.navbar-collapse>ul>li>a {
+    color: black;
+    display: flex;
+    text-align: center;
+
+}
+
+/* End of the Nav css */
+
+
+
+
+/* This is for footer css */
+.prog-lang {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 50vh;
+    width: auto;
+}
+
+.prog-lang>.prog-text {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.prog-lang>.prog-text>h3,
+h5 {
+    margin-top: 1rem;
+}
+
+.prog-lang>.prog-text>img {
+    width: 10%;
+    height: auto;
+    border-radius: 5px;
+}
