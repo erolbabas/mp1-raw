@@ -514,3 +514,206 @@ h5 {
         transform: scale(0);
     }
 }
+
+@media (max-width: 820px) {
+ 
+    nav{
+      margin-left: -47rem;
+    }
+    a {
+        font-size: 15px;
+    }
+    .bg-image-1>img {
+        margin-top: -5rem;
+        position: relative;
+        opacity: 85% !important;
+    
+    }
+    .first-page-image>.container>p {
+        z-index: 1000;
+        margin-top: -32rem;
+        margin-bottom: -24.2rem;
+        margin-left: 4rem;
+        padding: 7rem;
+        color: white;
+        position: relative;
+        font-size: 27px;
+        text-align: block;
+        font-family: 'Delicous Handrawn', 'cursive';
+}
+.first-page-image>.container>.first-name {
+    margin-top: 23rem;
+    margin-bottom: -16rem;
+}
+
+.second-page>.container>p {
+    position: relative;
+    margin-top: -21rem;
+    margin-bottom: 24rem;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: -9rem;
+    opacity: 86%;
+}
+.profile-image{
+    margin-left: 19rem
+}
+.about-me > img {
+    display: none;
+}
+.skills{
+    margin-left:0 !important;
+}
+
+.skills >img {
+    display: none;
+}
+.java-level {
+    margin-top: 79.5rem;
+    margin-left: 0rem;
+}
+.jQuery-level{
+    margin-top: 82rem;
+    margin-left: 0rem;
+}
+.c-lang{
+    margin-top: 84.5rem;
+    margin-left: 0rem;
+}
+.vb-level{
+margin-top: 86.8rem;
+margin-left: 0rem;
+}
+.gis-level{
+    margin-top: 88.9rem;
+    margin-left: 0rem;
+}
+.exp-job > img {
+    display: none;
+}
+    .button-section{
+        font-size: 1rem;
+    }
+    .prog-lang>.prog-text {
+        text-align: center;
+        
+    }
+    .prog-lang{
+        height: 16vh;
+    }
+}
+
+@media (max-width: 420px){
+    nav{
+      margin-left: -55rem;
+    }
+
+    a{
+        font-size: 9px !important;
+    }
+
+    .first-page-image>.container>p {
+        z-index: 1000;
+        margin-top: -18rem;
+        margin-bottom: -24.2rem;
+        margin-left: -4rem;
+        padding: 7rem;
+        color: white;
+        position: relative;
+        font-size: 17px;
+        text-align: block;
+        font-family: 'Delicous Handrawn', 'cursive';
+    }
+    .first-page-image > .container > .first-name{
+        margin-top: 18rem;
+    }
+    .first-page-image > .container > .first-name,.Second-name,.Last-name{
+        font-size:10px;
+    }
+
+    .bg-image-2 > img{
+            max-width: 100%;
+            height: auto;
+            margin-top: -10.7rem;
+            opacity: 86%;
+        
+    }
+    .second-page>.container>p {
+        position: relative;
+        margin-top: -10rem;
+        margin-bottom: 24rem;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+    .profile-image {
+        height: auto;
+        width: 40%;
+        border: 5px solid grey;
+        border-radius: 5rem;
+        position: relative;
+        z-index: 1000;
+        margin-top: -30rem;
+        margin-left: 7.5rem !important;
+    }
+    hr{
+        display: none;
+    }
+    .about-me{
+        margin-top: -10rem;
+    }
+
+    .about-me > h1{
+        font-size: 35px;
+    }
+    .about-me > p {
+        font-size: 10px;
+    }
+
+    .skills >h1{
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+    .java-level {
+        margin-top: 36rem;
+        margin-left: 4rem;
+        width: 50%;
+    }
+    .jQuery-level {
+        margin-top: 38.4rem;
+        margin-left: 4rem;
+        width: 50%;
+    }
+    .c-lang {
+        margin-top: 40.5rem;
+        margin-left: 4rem;
+        width: 50%;
+    }
+    .vb-level {
+        margin-top: 43.1rem;
+        margin-left: 4rem;
+        width: 50%;
+    }
+    .gis-level {
+        margin-top: 45.5rem;
+        margin-left: 4rem;
+        width: 50%;
+    }
+    .skill > div {
+        text-transform: none;
+    }
+
+    .exp-job > h1 {
+        font-size: 25px;
+    }
+
+    .exp-job > h4 {
+        font-size: 10px;
+    }
+}
